@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException, ElementClickInterceptedException
+from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Suppress SSL warnings
@@ -71,31 +71,7 @@ WEBSITES = [
 ]
 
 # --- Individual Scraper Functions ---
-def get_giz_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            if "Tender" in a.get_text():
-                tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in GIZ:", e)
-    return tenders
-
-def get_geda_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            if "Tender" in a.get_text():
-                tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in GEDA:", e)
-    return tenders
-
-def get_mahaurja_tenders(url):
+def generic_bs4_scraper(url, site_name):
     tenders = []
     try:
         r = requests.get(url, verify=False, timeout=20)
@@ -103,109 +79,23 @@ def get_mahaurja_tenders(url):
         for a in soup.find_all("a", href=True):
             tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
     except Exception as e:
-        print("Error in MAHAURJA:", e)
+        print(f"Error in {site_name}:", e)
     return tenders
 
-def get_hppcl_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in HPPCL:", e)
-    return tenders
+def get_giz_tenders(url): return generic_bs4_scraper(url, "GIZ")
+def get_geda_tenders(url): return generic_bs4_scraper(url, "GEDA")
+def get_mahaurja_tenders(url): return generic_bs4_scraper(url, "MAHAURJA")
+def get_hppcl_tenders(url): return generic_bs4_scraper(url, "HPPCL")
+def get_hareda_tenders(url): return generic_bs4_scraper(url, "HAREDA")
+def get_breda_tenders(url): return generic_bs4_scraper(url, "BREDA")
+def get_tgredco_tenders(url): return generic_bs4_scraper(url, "TGREDCO")
+def get_seci_tenders(url): return generic_bs4_scraper(url, "SECI")
+def get_niwe_tenders(url): return generic_bs4_scraper(url, "NIWE")
+def get_ireda_tenders(url): return generic_bs4_scraper(url, "IREDA")
+def get_nise_tenders(url): return generic_bs4_scraper(url, "NISE")
+def get_mahapreit_tenders(url): return generic_bs4_scraper(url, "MAHAPREIT")
 
-def get_hareda_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in HAREDA:", e)
-    return tenders
-
-def get_breda_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in BREDA:", e)
-    return tenders
-
-def get_tgredco_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in TGREDCO:", e)
-    return tenders
-
-def get_seci_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in SECI:", e)
-    return tenders
-
-def get_niwe_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in NIWE:", e)
-    return tenders
-
-def get_ireda_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in IREDA:", e)
-    return tenders
-
-def get_nise_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in NISE:", e)
-    return tenders
-
-def get_mahapreit_tenders(url):
-    tenders = []
-    try:
-        r = requests.get(url, verify=False, timeout=20)
-        soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            tenders.append({"title": a.get_text(strip=True), "url": a["href"]})
-    except Exception as e:
-        print("Error in MAHAPREIT:", e)
-    return tenders
-
-# --- Dynamic Scrapers ---
+# --- Dynamic Scrapers with safe error handling ---
 def get_gtai_tenders(url):
     tenders = []
     options = webdriver.ChromeOptions()
@@ -215,12 +105,18 @@ def get_gtai_tenders(url):
     driver = get_chrome_driver(options)
     try:
         driver.get(url)
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "li.result-item"))
-        )
+        try:
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "li.result-item"))
+            )
+        except TimeoutException:
+            print(f"Timeout on GTAI ({url}), skipping.")
+            return []
         soup = BeautifulSoup(driver.page_source, "html.parser")
         for item in soup.select("li.result-item a[href]"):
-            tenders.append({"title": item.get_text(strip=True), "url": f"https://www.gtai.de{item['href']}"})        
+            tenders.append({"title": item.get_text(strip=True), "url": f"https://www.gtai.de{item['href']}"})
+    except Exception as e:
+        print("Error in GTAI:", e)
     finally:
         driver.quit()
     return tenders
@@ -234,12 +130,18 @@ def get_adb_tenders(url):
     driver = get_chrome_driver(options)
     try:
         driver.get(url)
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "div.item.linked"))
-        )
+        try:
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.item.linked"))
+            )
+        except TimeoutException:
+            print(f"Timeout on ADB ({url}), skipping.")
+            return []
         soup = BeautifulSoup(driver.page_source, "html.parser")
         for item in soup.select("div.item.linked div.item-title a[href]"):
-            tenders.append({"title": item.get_text(strip=True), "url": f"https://www.adb.org{item['href']}"})        
+            tenders.append({"title": item.get_text(strip=True), "url": f"https://www.adb.org{item['href']}"})
+    except Exception as e:
+        print("Error in ADB:", e)
     finally:
         driver.quit()
     return tenders
@@ -253,14 +155,20 @@ def get_dynamic_tenders(url, wait_selector, title_selector, link_selector):
     driver = get_chrome_driver(options)
     try:
         driver.get(url)
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, wait_selector))
-        )
+        try:
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, wait_selector))
+            )
+        except TimeoutException:
+            print(f"Timeout on dynamic site ({url}), skipping.")
+            return []
         soup = BeautifulSoup(driver.page_source, "html.parser")
         for item in soup.select(title_selector):
             link_tag = item if item.name == "a" else item.find("a")
             if link_tag and link_tag.has_attr("href"):
                 tenders.append({"title": item.get_text(strip=True), "url": link_tag["href"]})
+    except Exception as e:
+        print(f"Error in dynamic scraper {url}: {e}")
     finally:
         driver.quit()
     return tenders
