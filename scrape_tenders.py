@@ -21,9 +21,11 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # --- Configuration ---
-# securely access secrets from the GitHub Actions environment.
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
-RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
+# Get the comma-separated string of emails from secrets
+RECEIVER_EMAILS_STR = os.environ.get("RECEIVER_EMAIL", "") 
+# Split the string into a list of individual emails
+RECEIVER_EMAILS = [email.strip() for email in RECEIVER_EMAILS_STR.split(',') if email.strip()]
 APP_PASSWORD = os.environ.get("APP_PASSWORD")
 
 # This line was likely missing in your modified file, causing the NameError.
@@ -906,23 +908,22 @@ def save_seen_tenders(tenders, filename, website_name):
     except IOError as e:
         print(f"Error saving seen tenders to file '{filename}': {e}")
 
-def send_email(subject, body):
-    """Sends an email using the specified credentials."""
-    # Check if credentials are set before trying to send an email
-    if not all([SENDER_EMAIL, RECEIVER_EMAIL, APP_PASSWORD]):
-        print("Email credentials are not set. Skipping email notification.")
+def send_email(subject, body, recipients):
+    """Sends an email to a list of recipients."""
+    if not all([SENDER_EMAIL, APP_PASSWORD]) or not recipients:
+        print("Sender credentials or recipient list are not set. Skipping email notification.")
         return
-        
     try:
         msg = MIMEMultipart()
         msg["Subject"] = subject
         msg["From"] = SENDER_EMAIL
-        msg["To"] = RECEIVER_EMAIL
+        msg["To"] = ", ".join(recipients)  # Join list for the 'To' header
         msg.attach(MIMEText(body, "plain"))
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(SENDER_EMAIL, APP_PASSWORD)
-            server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, msg.as_string())
-        print("Email alert sent successfully!")
+            # sendmail can handle a list of recipients directly
+            server.sendmail(SENDER_EMAIL, recipients, msg.as_string())
+        print(f"Email alert sent successfully to: {', '.join(recipients)}")
     except Exception as e:
         print(f"Error sending email: {e}")
 
@@ -1004,7 +1005,7 @@ def main():
         save_seen_tenders(all_tenders, TENDERS_DATA_FILE, website['name'])
 
     if all_new_tenders_found:
-        send_email(f"Daily Tender Alert: New Tenders Found", email_body)
+        send_email(f"Daily Tender Alert: New Tenders Found", email_body, RECEIVER_EMAILS)
     else:
         print("No new tenders found across all websites.")
 
