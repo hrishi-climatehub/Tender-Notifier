@@ -2,7 +2,7 @@ name: Tender Scraper
 
 on:
   schedule:
-    - cron: '* * * * *'   # run every 5 minutes
+    - cron: '* * * * *'   # run every day
   workflow_dispatch: {}      # allow manual trigger from Actions tab
 
 permissions:
