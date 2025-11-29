@@ -2185,6 +2185,10 @@
     ],
     "HPPCL": [
         {
+            "title": "NIQ for procurement of Electrol",
+            "url": "https://hppcl.in/content/650_1_tender.aspx"
+        },
+        {
             "title": "NIT Cancellation Notice iro Updation of Finance and Accounts Manual of HPPCL",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
@@ -2218,10 +2222,6 @@
         },
         {
             "title": "NIT regarding Preventive maintenance iro Berra Dol SPP",
-            "url": "https://hppcl.in/content/650_1_tender.aspx"
-        },
-        {
-            "title": "Supply and installation of Inverter in Berra Dol SPP",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
         {
@@ -3178,46 +3178,50 @@
     "SECI": [
         {
             "title": "RfS for assured Peak supply of 4800 MWh (1200 MW x 4 Hrs.) from ISTS-Connected RE Power Projects in India (SECI-FDRE-VII)",
-            "url": "https://www.seci.co.in/tender-details/NWQzOWZiNTM1ZDRiMDM2MjNlMTk1YzMwODhiNTJlYTVhYTQxZDEwY2RjYjcxOWI1MzA2ODBkMWUwNTliMTRlZmU0NThlOGIyY2ZhYTczYzdhMTRhZTZkNTI3ZGE4ODdmMTQwOTViYjUyNjIzNjlmZmNiNWNmNGM4NTlhYTRkMGNSUE5ROTJySThRZU1ESkN0Z0dnZCtNTXVWZTFQY2lkSUhvREF2QitJY2I0PQ,,"
+            "url": "https://www.seci.co.in/tender-details/YjJkMzg1YTU0NzgxZWMyNmFjODZlOGFkMjFlODQ0MjIwOTdkZTZiODc2ZmY1OTljYjZkOGYzMGFlY2I0NmI5MWRhMmVlODI3ZTZmZWNkNGNjZWM4Y2YwYzQ2OTZkNzlhMmU4NWRhMDA4Njg2ZTFlNzZlZjdhMGY5MjJjZTJhNmRYMEhxS2NOd3hBY2dNc2FLQ1J4Wm5jblVVYUx3alFBTXk1dTJxckZGbSswPQ,,"
         },
         {
             "title": "CfP for Selection of Executing Agency for Preparation of DPRs for GH2 Hubs under NGHM",
-            "url": "https://www.seci.co.in/tender-details/NjY0NWZlMjJhNWI2ZTY3NWQ1ZTEzMzk3OWU3N2M2MjFhMGQ1NWFhNmY3NWFhY2RkNDJmN2JhZmViNjIzZGY2ODMyOGMxNWMxNDIyMTMwNWMwOTcyOGM1MjFhODY3NmU5MTU2NDY0OTRjNDcyYzFmODcxZDI4YWJhZGIzNjMxYjgrYThBd0lqdkN1aFhRTkJFQVZNclFGUFlpYzVtRllDSmdCd1BKeUZsNGRZPQ,,"
+            "url": "https://www.seci.co.in/tender-details/YTJmM2RkOTQ0Yjg4Nzk0NmNmMjZiZjc0YWExMjg2ODNhNDU1NzEzYjM4YWY0NWNmOTdkNjUwZDNjNThiNDY3Zjc1ZGIwNDEwZTlmZGVlMTRiM2Q3Mjc1MWViM2E3ZmY2MzFkMTIwNmM0YjNlMDViMjdhNjZmNDA4N2VjNzM3YTBaZTh5WVkvK2ZrdnQ1bEw1Nm5BemhIRWdwRktXSDNXZHliL1V5V0VQczg0PQ,,"
         },
         {
             "title": "RfS for Setting up of 600 MW ISTS-Connected Wind Power Projects in India (SECI-Tranche-XIX)",
-            "url": "https://www.seci.co.in/tender-details/YmY3ZjMwMzIyZmZjYjczMzMxMGU2MzMwYWE5NmJmMzM3ZTlkYjIxNmM1MGVmOTMzMmUxMTM3ZDZmNjcwMGUzNTcwN2Y3Mzk0NTM5MzI4MGQ0YzU4MWVmNGQ2OGMzNjVmYmRlZDQzZTdjNmZjMjUzYzZkZjhkNTk3ZjQyNzFlZjR5cG9yay92clQ2N1UzSEJDTVBpQ2FTZ3A4UFZkcWlpdklWNmtvY0NaNlhNPQ,,"
+            "url": "https://www.seci.co.in/tender-details/MTExODQ3NDY2MDAwOTNlZmExZWIxZjVmNGJlOTcxYWU4ZTEwOGE5MWFjM2UzZTgzNzMwZTg1YjYxODVjNjU4NjAxMzFhYzZiMDliZDk4MDAwZjMzOTVmMDMwOTdlZDFiMDVjN2VjYzM4MTAwYzU4ZWM1ODQyMzYyMDQ5YWM0OWVsS1pNZ29Bc2lsdWkyNmtvZklhcHVhUmhCRFg0R2syaW04US9RVWZVR1NNPQ,,"
         },
         {
             "title": "RfP for Renting out SECI\u2019s Office Space, along with Built-up Facilities at the NBCC Office Complex, East Kidwai Nagar, New Delhi-110023",
-            "url": "https://www.seci.co.in/tender-details/YWVjYzA5YWE3ODgwNmM1NjhmZTk1YmVlOTQwMzRmMjM0NTBmMTg2MmE1N2EyZjY3NDhlZjJlN2E3YzU1YjNkYzA0NDc2M2Y4OTQ1MDQ3ZDgzNDhhZmYxMGE1NTk0ZmQ0MzY4NzVkYjQzOGM0ZWYyNjAyMjRmNzMzM2EwMDM0NjJuRkdPKzJJRkw0WWhJSytaL1JZYVhoa1FnRW82alRGVUp3clpvaEw2Wkg0PQ,,"
+            "url": "https://www.seci.co.in/tender-details/NmQ4NWFkM2JkNTdhNDgxODk4MmY2NThmYTMzOTUxYTU2YmQzNGUyMzRhYmM1NjM5ZDJkODQ4Y2ZhYjJjNWJkMTUwOTRlNjE5ZjZmYjNhZGRlMDM3NzlhNjM4MDcyMjgwNjBmMjQzN2JhY2MwNmQzY2MyYzMyZWM5MTNlYjQzMTRCc0lNLzNHdG1DTkVCclhmQlZTcnJBMjVHZnlHZ1V1MmhpNUtNTlp0ZEk0PQ,,"
         },
         {
             "title": "The Development of Cybersecurity Compliance Portal for Renewable Energy Sector (RECAP)",
-            "url": "https://www.seci.co.in/tender-details/MTg1Y2VlN2QxMWZjYjEzOWM4ODgyMTUzYjdlNDIwMzNlYTM3YWM1ZDc3N2Y5NjM4M2I5N2FkZTc5ZGUwOTMyY2I5MDI0ZGVhMDI5OTcyNDI4MmRlMThkMDczMjA3ZWY2MmU2NjhmOGY5NDhhYzFiZWUxZGExMjQ1NWNkYzMzNDcrbWtkMUduRXprZklWRjZySTYvODR6c2dobm03YnpiSk9KTElFM0FPUWJvPQ,,"
+            "url": "https://www.seci.co.in/tender-details/ZmQ4YWJmMmYzZWFkM2Q5Njk0MWE5OTgxNWU2ZWMzOTUyNTRlMjBkYzRjMzNmZTYwYjcwOTE4NTY1MWE1NDEzZDMzM2RhZDczZWU5OGViM2Q5ZWFhYmM2YzhiZDQzZWZkOTk4YmMxNmZlZWQ0Yzc5ZjFjZTNkMzBmOWZmNGQ4MjlxZmtpVVZYOUUyUjkzYVBOVDBsZ3J4RDg3UVNydHREN1dtNmZIVnJTQi84PQ,,"
         },
         {
             "title": "RfS for 500 MW ISTS-Connected Solar PV Power Projects in India (SECI-ISTS-XIX)",
-            "url": "https://www.seci.co.in/tender-details/ZTQzZGM2MWViNTA5MzJhYjg3ODNjN2U4NzMxZWFjNjRiNjE5YTBiODYzOWJiYTE0OTE2YTA4ZTBlZGI4NjhhMjQ0ZmEzNjk5ZTI5ZjQyZmZjOTNmODQ0NmQ5MjljM2YxYjNmNTFiMjk4ZmQwMmE1MjhlOGNlZjgwY2NiMTZiMTFXTlRFTWZiS1VSQ2ZoeVJFQWt6Vzg2R2JIdFhuNXJCTzVEWFR4aTFHOE44PQ,,"
+            "url": "https://www.seci.co.in/tender-details/YzgwODhlNjI1OWY2ZmE2OTY0MjUwMzYwZmYwZGEzYjdkMTE5MmQxMTQwOTk1NTVkNzc5ZDNlNTVjZWM4ZWU5ZTJjZjFlZGI0ZjBhNmJhYjc3ZGIyNjE2YTU1ZGNkM2QyMjFmMTk4NTI2ZDA3N2FkMjA3ZjdmOGM2YjZjZjFiNTFyOUp2NUxCUUtPQno0ZWVqVURzakkyZXdFbUsvTEw5ZVZmVkUyMHBOUk04PQ,,"
         },
         {
             "title": "RfS for Setting up of 1200 MW ISTS-connected Solar PV Power Projects with 600 MW/3600 MWh ESS in India (SECI-ISTS-XXI)",
-            "url": "https://www.seci.co.in/tender-details/M2ZhNTJlZTc5NWM2MWE3NGIzZjZlMmZiNmE5OTUyMjM1NzM1M2U4MDU5YmIwNDJkNzJkODEwNzI4YzlmYjQwNzgwZmViY2NmZGYwNmJlMTRjZThmMmM4ZTYxODgxYzdmODUzOGVkZTUxMjJmMTA1N2VhZWZiNTljMGJmM2UzZGJVRXVZWldYLzdDbERnMUN6OGZPd2loVUkzTU1IbWoyRXAyL3FwZktwTmFzPQ,,"
+            "url": "https://www.seci.co.in/tender-details/OGViMjAyOWIyODA4ZjJjMGRjYTNiYTI3ODJhOTQwOWE0MjE1MzhiOWQ5NTc3NTEzZTkwM2M1NTNlY2Q2MTA4YTc0OGM3ZDg4ZDZjNDNmZWQwNGQ1ZjNjOTM4YjZmMDcyZTEyMzNkNzc4MzYwZTQ3NDczMzg1ZjY0ZWU2NjY2YzZ0cnVqcVRnSXpndUlWZWFGT1N4MGxIZnVjWUdFZGIzaWREZDJ0cXFYVG40PQ,,"
         },
         {
             "title": "RfS for Setting up of 13043 kW Grid-Connected RTSPV project in Puducherry (RTSPV-Tranche-V)",
-            "url": "https://www.seci.co.in/tender-details/NWU1N2YxYTU2ODMyZDdiMDRmZDJhM2I0ZDAxNjFjMDAzNTJlMzhhODRlMTc3ZGMxMmUzZGMwYTVjY2E0OGZlMjc1ZTA2ZjE0OTJmNDlhMDUxN2E2ZTgzMTY5OTIzMjgxNjdiMDgwNjZlMGI0OWY5OTMxMDRmYmY2MDQ1ODYzMGVuYS9ZOWs4RGNRcGlyYkdrSXZYNVI1SWpQb0lyd2V1czk2NWZjUzl0TldNPQ,,"
+            "url": "https://www.seci.co.in/tender-details/YTQzZDQ4MzY5OTM1YmVjOTcxODI3YzkyNmI5YTMyNWJkYzQ2MGY0ZTE3ZjYzYmNjZGQzNzQ2Y2U1YjNmZTI2ODJmNWQyNmI3OGE5ZjBjM2VjZTQ3ZmJjMzE0ZmZmNWQzZTBhMzgyZDEwMWZiNzY0YWFlYjFkY2U5NmIxZjViM2UzOWRGbzd1WS9GOFlUalRicmpuS3NHOVkzc2p1eWgxWWpwQ3Vza09vUENrPQ,,"
         },
         {
             "title": "RfS for setting up of 3640 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode (RTSPV-Tranche-IV)",
-            "url": "https://www.seci.co.in/tender-details/NjU2Mzk0NWI0ZDI1YzA0YWZjMThhZjUzNmEwMmI5YzJlMGIxZTdkM2YxNmI4YWVhODZkN2RjY2EwYjBjMWQxMDZjNTYwZjc4MGNiYzJkOWMwNWMxMWRlMjI4Zjk5ZDcyNGFmODg2NWQ3OTUwZWY5Mjk2N2EzZGZhNmI3ZjhiZDJjbXZ1Q0hmOEN0TzUrTG96a1dqSFVKMlF0R2ppd2I1VGM0WnFjMlZwR0R3PQ,,"
+            "url": "https://www.seci.co.in/tender-details/YTRlNjA4MmYzZDlhZTFkY2EyNTdiNzJiNWY4MjllYTBkZjgzNGRiNjE0ZGE2ZDdmMDA2ZmQ0NGJiY2FhZGJhZGU5ZDYwZjc0NGZkOTI3NGJlZDM5ZTkzYzFiOGZhZTE5ZDMzZGU5YzhiNGM3ZjRjMTMyYzcyYjcwMmJlNTdmOTRaN2YxNzJYNEtPQ1Y2YVJiSUIvbEQxSlFXK0NaUmJoRnZRM2lsN1RaQlhFPQ,,"
         },
         {
             "title": "The setting up of Centralized Asset Management Centre (CAMC) and SaaS License for a period of 05 (Five) years for operating RE projects at SECI",
-            "url": "https://www.seci.co.in/tender-details/OWY5MWYxMzM5OWFlYTczZjFlN2YyZWFlYzQ0OGNkOGE3NjY1NjdhYmVhNzg5MmYxNjcxZGExZDkwYTk3MTdjOWQxZWY4ZDkyMGU3ZTI3NTZjNTI1Yjc0ZGNjYzU3MzZlNGM1YjUwYzQ3ZThmNWFkYzAxOGVhYzk1ZjMzM2EyMzVFNEhUVHFTOUhLUEhrdExVbUZUL0srdlV5MFNMNHQxWmlHa0Q2c3lNcm5jPQ,,"
+            "url": "https://www.seci.co.in/tender-details/NmFjMjA0Zjc3MjE1YmZkNWVmMGQ1OGYyNTQyZTY2NWJhNTJjNDFiNTYxMzY2ZTRiODNmN2ZmMDY2NzFkM2Q1ZGZkYThkZGYzNGE0MmJlYTVhOWQyMjQ0NDJjZGM5MTcxODZjMzA4OGMwN2M4NDc1MGZiYmY0NzlhZTE1ZWU4ZmEwR2I0Rkl3ZkNETGt6bnlMZk9ERW9vM1dRbjV1MGc2Z0NpejNBQkZJR1g4PQ,,"
         }
     ],
     "NIWE": [
+        {
+            "title": "Tender for Comprehensive AMC for Smart Rack SolutionsNEW",
+            "url": "https://niwe.res.in/media/tenders/Tender_Smart_Rack.pdf"
+        },
         {
             "title": "Custom Bid for Services - Refurbishment of 120m Mast at Kayathar Tamil NaduNEW",
             "url": "https://niwe.res.in/media/tenders/Tender_Refurbishment_120mMast.pdf"
@@ -3247,7 +3251,7 @@
             "url": "https://niwe.res.in/media/tenders/Tender_Calibration_Anemometer.pdf"
         },
         {
-            "title": "Custom Bid for Services - Dismantling and Transportation of 100M Masts in 8 StatesCorrigendum-01PDF(49.16 KB)Corrigendum-02PNG(106.79 KB)Corrigendum-03PNG(85.58 KB)Corrigendum-04PDF(49.24 KB)Corrigendum-05PDF(49.33 KB)NEWCorrigendum-06PNG(85.53 KB)NEW",
+            "title": "Custom Bid for Services - Dismantling and Transportation of 100M Masts in 8 StatesCorrigendum-01PDF(49.16 KB)Corrigendum-02PNG(106.79 KB)Corrigendum-03PNG(85.58 KB)Corrigendum-04PDF(49.24 KB)Corrigendum-05PDF(49.33 KB)Corrigendum-06PNG(85.53 KB)Corrigendum-07PNG(57.45 KB)NEW",
             "url": "https://niwe.res.in/media/tenders/Tender_Dismantling_Transportation.pdf"
         },
         {
