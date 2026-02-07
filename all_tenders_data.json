@@ -2209,10 +2209,6 @@
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
         {
-            "title": "NIQ iro work Service Engineer Visit for Health Check in IKHEP I",
-            "url": "https://hppcl.in/content/650_1_tender.aspx"
-        },
-        {
             "title": "NIQ regarding Calling of service engineer of BPL TELECOM in Sainj HEP",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
@@ -2225,7 +2221,7 @@
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
         {
-            "title": "2",
+            "title": "RFP for Engagement of PMC for Thana Plaun HEP",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         }
     ],
@@ -3213,6 +3209,10 @@
     ],
     "SECI": [
         {
+            "title": "RfS for Setting up of 1000 MW/8000 MWh Pumped Storage Plants in India (PSP-I)",
+            "url": "https://www.seci.co.in/tender-details/YmF3"
+        },
+        {
             "title": "RfS for Supply of 1000 MW Excess Power from RE Projects having Existing PPA (SECI-FDRE-VIII)",
             "url": "https://www.seci.co.in/tender-details/YmB-"
         },
@@ -3239,10 +3239,6 @@
         {
             "title": "Power Transformer Procurement",
             "url": "https://www.seci.co.in/tender-details/YmF1"
-        },
-        {
-            "title": "RfS for Setting up of 1000 MW/8000 MWh Pumped Storage Plants in India (PSP-I)",
-            "url": "https://www.seci.co.in/tender-details/YmF3"
         },
         {
             "title": "Design, Development, and Implementation of Power Trading Software and Manpower for Power Trading Activities at SECI\u2019s New Delhi office",
@@ -3572,6 +3568,18 @@
         }
     ],
     "NISE": [
+        {
+            "title": "GeM Tender For for Procurement of Measurement Instruments and Data Acquisition System for Laboratories at National Institute of Solar Energy, Gurugram, Haryana -122003, India",
+            "url": "https://nise.res.in/wp-content/uploads/2026/02/GeM-Bidding-8928636-nnn.pdf"
+        },
+        {
+            "title": "GeM tender For Supply, Installation and Commissioning of e-beam evaporation system at National Institute of Solar Energy",
+            "url": "https://nise.res.in/wp-content/uploads/2026/02/GeM-Bidding-8941471-nn.pdf"
+        },
+        {
+            "title": "GeM tender For Supply, Installation and Commissioning of glove box at National Institute of Solar Energy",
+            "url": "https://nise.res.in/wp-content/uploads/2026/02/GeM-Bidding-8938555-n.pdf"
+        },
         {
             "title": "GEM Tender for Supply, Installation and Commissioning of Spectrofluorometer for steady-state and time-resolved fluorescence measurement based on International Competitive Bidding in NISE Gurugram",
             "url": "https://nise.res.in/wp-content/uploads/2026/02/GeM-Bidding-8923445.pdf"
