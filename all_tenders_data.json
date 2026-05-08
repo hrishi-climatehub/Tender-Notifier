@@ -2185,6 +2185,10 @@
     ],
     "HPPCL": [
         {
+            "title": "NIQ for CAMC of Cummins make DG sets in SKHEP",
+            "url": "https://hppcl.in/content/650_1_tender.aspx"
+        },
+        {
             "title": "eNIT for Sanerh SPP with BESS",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
@@ -2201,14 +2205,6 @@
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
         {
-            "title": "NIQ for Annual Rate contract for supplying of Liquid Nitrogen gas in SKHEP",
-            "url": "https://hppcl.in/content/650_1_tender.aspx"
-        },
-        {
-            "title": "NIQ for CAMC of Cummins make DG sets in SKHEP",
-            "url": "https://hppcl.in/content/650_1_tender.aspx"
-        },
-        {
             "title": "NIQ for Calling of Service Engineer of Statcon Energiaa in Sainj HEP",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
@@ -2222,6 +2218,10 @@
         },
         {
             "title": "NIQ for Cleaning of Sumps at PH Complex of Sawra Kuddu HEP",
+            "url": "https://hppcl.in/content/650_1_tender.aspx"
+        },
+        {
+            "title": "NIT regarding Hiring of Consultant or Consultancy Firm",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
         {
@@ -3329,12 +3329,12 @@
             "url": "https://www.seci.co.in/tender-details/YmZ3"
         },
         {
-            "title": "RfS for setting up of 4455 kW Grid-Connected Rooftop Solar PV Projects under RESCO Mode (RTSPV-Tranche-IX)",
-            "url": "https://www.seci.co.in/tender-details/YmZ0"
-        },
-        {
             "title": "RfS for Supply of 1000 MW Excess Power from RE Projects having Existing PPA (SECI-FDRE-VIII)",
             "url": "https://www.seci.co.in/tender-details/YmB-"
+        },
+        {
+            "title": "RfS for setting up of 4455 kW Grid-Connected Rooftop Solar PV Projects under RESCO Mode (RTSPV-Tranche-IX)",
+            "url": "https://www.seci.co.in/tender-details/YmZ0"
         },
         {
             "title": "Internet Leased Line Services for 10 MW Solar PV Project at Badi Sid Bap Jodhpur Rajasthan",
@@ -3351,11 +3351,15 @@
     ],
     "NIWE": [
         {
-            "title": "Custom Bid for Services - Supply and installation of Gear Box for Micon Wind Turbine at KayatharNEW",
+            "title": "Tender for \"Outdoor Catering Service - Duration Based\"NEW",
+            "url": "https://niwe.res.in/media/tenders/Tender_outdoor_catering.pdf"
+        },
+        {
+            "title": "Custom Bid for Services - Supply and installation of Gear Box for Micon Wind Turbine at KayatharNEWCorrigendum-01JPG(134.17 KB)NEW",
             "url": "https://niwe.res.in/media/tenders/Tender_GearBox_Kayathar.pdf"
         },
         {
-            "title": "Tender for \"AAI MOD NOC for MET MAST\"Corrigendum-01PNG(131.47 KB)NEW",
+            "title": "Tender for \"AAI MOD NOC for MET MAST\"Corrigendum-01PNG(131.47 KB)",
             "url": "https://niwe.res.in/media/tenders/Tender_AAI_MOD_NOC.pdf"
         },
         {
