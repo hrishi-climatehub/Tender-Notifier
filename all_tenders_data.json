@@ -2219,10 +2219,6 @@
         {
             "title": "eNIT for Mazra SPP with BESS",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
-        },
-        {
-            "title": "eNIT for Dabhota I SPP with BESS",
-            "url": "https://hppcl.in/content/650_1_tender.aspx"
         }
     ],
     "HAREDA": [
@@ -3288,6 +3284,10 @@
         }
     ],
     "SECI": [
+        {
+            "title": "RfS for setting up 5500 kW Grid-Connected Rooftop Solar PV Project under RESCO mode (RTSPV-Tranche-X)",
+            "url": "https://www.seci.co.in/tender-details/Ymdz"
+        },
         {
             "title": "Expression of Interest for  Virtual Power Purchase Agreement (VPPA) Based Renewable Energy Procurement",
             "url": "https://www.seci.co.in/tender-details/YmZx"
