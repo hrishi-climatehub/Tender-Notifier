@@ -2197,10 +2197,6 @@
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
         {
-            "title": "NIQ for Annual Rate contract for supplying of Liquid Nitrogen gas in SKHEP",
-            "url": "https://hppcl.in/content/650_1_tender.aspx"
-        },
-        {
             "title": "NIT iro procurement of electrical spares for radial gates of Barrage site of Sainj HEP",
             "url": "https://hppcl.in/content/650_1_tender.aspx"
         },
@@ -3285,8 +3281,16 @@
     ],
     "SECI": [
         {
+            "title": "RfS for setting up of 12250 kW Grid-Connected Rooftop Solar PV Projects on JNV Buildings (Phase-II) under RESCO Mode through Tenure-based Competitive Bidding (RTSPV-Tranche-XI)",
+            "url": "https://www.seci.co.in/tender-details/Ymdx"
+        },
+        {
             "title": "RfS for setting up 5500 kW Grid-Connected Rooftop Solar PV Project under RESCO mode (RTSPV-Tranche-X)",
             "url": "https://www.seci.co.in/tender-details/Ymdz"
+        },
+        {
+            "title": "5 Nos. 160 MVA, 220/33 - 33 KV Power Transformer Procurement",
+            "url": "https://www.seci.co.in/tender-details/Ymdy"
         },
         {
             "title": "RfS for 2000 MW ISTS-Connected Wind Power Projects in India (SECI-Tranche-XX)",
@@ -3297,8 +3301,16 @@
             "url": "https://www.seci.co.in/tender-details/YmZx"
         },
         {
+            "title": "Supply and Maintenance of Plants at SECI Office",
+            "url": "https://www.seci.co.in/tender-details/Ymdw"
+        },
+        {
             "title": "RfS for Supply of 1000 MW Excess Power from RE Projects having Existing PPA (SECI-FDRE-VIII)",
             "url": "https://www.seci.co.in/tender-details/YmB-"
+        },
+        {
+            "title": "BoS Tender for Setting up of grid-connected 88 MW Ground mounted Solar PV plant at Chitradurga, Karnataka",
+            "url": "https://www.seci.co.in/tender-details/Ymd1"
         },
         {
             "title": "Selection of Agency for Development, Enhancement, Deployment and Maintenance of SECI Digital Systems",
@@ -3313,16 +3325,12 @@
             "url": "https://www.seci.co.in/tender-details/YmZ-"
         },
         {
-            "title": "RfS for Supply of 1000 MW Round-the-Clock Thermal Mimic (RTC-TM) Power from ISTS-Connected RE Power Projects in India (SECI-RTC-TM-V)",
-            "url": "https://www.seci.co.in/tender-details/YmZ3"
-        },
-        {
-            "title": "BoS Tender for Setting up of grid-connected 88 MW Ground mounted Solar PV plant at Chitradurga, Karnataka",
-            "url": "https://www.seci.co.in/tender-details/Ymd1"
-        },
-        {
             "title": "RfS for Setting up of 1500 MW/12000 MWh Pumped Storage Plants in India (PSP-I)",
             "url": "https://www.seci.co.in/tender-details/YmF3"
+        },
+        {
+            "title": "RfS for Supply of 1000 MW Round-the-Clock Thermal Mimic (RTC-TM) Power from ISTS-Connected RE Power Projects in India (SECI-RTC-TM-V)",
+            "url": "https://www.seci.co.in/tender-details/YmZ3"
         },
         {
             "title": "Hiring of Rental Commercial Vehicles on as and when required Daily Rental basis for Official Travel Requirements at SECI New Delhi Office",
